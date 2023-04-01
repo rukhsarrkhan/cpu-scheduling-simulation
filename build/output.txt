@@ -1,0 +1,1608 @@
+___________________________FCFS________________________________
+
+
+Initial Process state
+Processes States at time: 60000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 150775          | 60              | I/O Queue       |
+| 5               | 168610          | 60              | I/O Queue       |
+| 6               | 151039          | 60              | I/O Queue       |
+| 7               | 140490          | 60              | I/O Queue       |
+| 8               | 138477          | 60              | I/O Queue       |
+| 9               | 169172          | 60              | I/O Queue       |
+| 10              | 161822          | 60              | I/O Queue       |
+| 1               | 174535          | 60              | I/O Queue       |
+| 2               | 160233          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 120000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 171034          | 60              | I/O Queue       |
+| 2               | 156882          | 60              | I/O Queue       |
+| 3               | 170318          | 60              | I/O Queue       |
+| 4               | 146974          | 60              | I/O Queue       |
+| 5               | 163243          | 60              | I/O Queue       |
+| 6               | 145668          | 60              | I/O Queue       |
+| 7               | 135274          | 60              | I/O Queue       |
+| 8               | 131863          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 180000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 158215          | 0               | Ready Queue     |
+| 7               | 129643          | 60              | I/O Queue       |
+| 8               | 125431          | 60              | I/O Queue       |
+| 9               | 155332          | 60              | I/O Queue       |
+| 10              | 148022          | 60              | I/O Queue       |
+| 1               | 168126          | 60              | I/O Queue       |
+| 2               | 153941          | 60              | I/O Queue       |
+| 3               | 166130          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 240000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 150627          | 60              | I/O Queue       |
+| 3               | 162637          | 60              | I/O Queue       |
+| 4               | 137659          | 60              | I/O Queue       |
+| 5               | 153990          | 60              | I/O Queue       |
+| 6               | 135798          | 60              | I/O Queue       |
+| 7               | 123556          | 60              | I/O Queue       |
+| 8               | 118760          | 60              | I/O Queue       |
+| 9               | 148143          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 300000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 113136          | 0               | Ready Queue     |
+| 9               | 142115          | 0               | Ready Queue     |
+| 10              | 133577          | 0               | Ready Queue     |
+| 1               | 162343          | 0               | Ready Queue     |
+| 2               | 146521          | 0               | Ready Queue     |
+| 3               | 158465          | 0               | Ready Queue     |
+| 5               | 149057          | 60              | I/O Queue       |
+| 6               | 130473          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 360000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 142944          | 0               | Ready Queue     |
+| 6               | 125857          | 0               | Ready Queue     |
+| 7               | 111852          | 0               | Ready Queue     |
+| 9               | 134992          | 60              | I/O Queue       |
+| 10              | 127234          | 60              | I/O Queue       |
+| 1               | 159461          | 60              | I/O Queue       |
+| 2               | 142469          | 60              | I/O Queue       |
+| 3               | 155048          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 420000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 124517          | 0               | Ready Queue     |
+| 5               | 137458          | 0               | Ready Queue     |
+| 7               | 106908          | 60              | I/O Queue       |
+| 8               | 98865           | 60              | I/O Queue       |
+| 9               | 128416          | 60              | I/O Queue       |
+| 10              | 120786          | 60              | I/O Queue       |
+| 1               | 156315          | 60              | I/O Queue       |
+| 2               | 138520          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 480000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 121236          | 0               | Ready Queue     |
+| 10              | 113916          | 0               | Ready Queue     |
+| 1               | 153104          | 0               | Ready Queue     |
+| 2               | 134864          | 0               | Ready Queue     |
+| 4               | 119892          | 60              | I/O Queue       |
+| 5               | 132862          | 60              | I/O Queue       |
+| 6               | 115250          | 60              | I/O Queue       |
+| 7               | 101565          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 540000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 127621          | 0               | Ready Queue     |
+| 6               | 109520          | 0               | Ready Queue     |
+| 8               | 85321           | 60              | I/O Queue       |
+| 9               | 113064          | 60              | I/O Queue       |
+| 10              | 107881          | 60              | I/O Queue       |
+| 1               | 150108          | 60              | I/O Queue       |
+| 2               | 131541          | 60              | I/O Queue       |
+| 3               | 143103          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 600000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 147102          | 0               | Ready Queue     |
+| 2               | 128002          | 0               | Ready Queue     |
+| 3               | 139256          | 0               | Ready Queue     |
+| 4               | 111232          | 0               | Ready Queue     |
+| 5               | 123216          | 0               | Ready Queue     |
+| 7               | 89543           | 60              | I/O Queue       |
+| 8               | 78355           | 60              | I/O Queue       |
+| 9               | 105812          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 660000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 144179          | 0               | Ready Queue     |
+| 3               | 134928          | 60              | I/O Queue       |
+| 4               | 107265          | 60              | I/O Queue       |
+| 5               | 118663          | 60              | I/O Queue       |
+| 6               | 97810           | 60              | I/O Queue       |
+| 7               | 83826           | 60              | I/O Queue       |
+| 8               | 71515           | 60              | I/O Queue       |
+| 9               | 99856           | 60              | I/O Queue       |
+| 10              | 93088           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 720000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 103094          | 60              | I/O Queue       |
+| 5               | 113927          | 60              | I/O Queue       |
+| 6               | 92308           | 60              | I/O Queue       |
+| 7               | 77903           | 60              | I/O Queue       |
+| 8               | 64868           | 60              | I/O Queue       |
+| 9               | 93235           | 60              | I/O Queue       |
+| 10              | 85879           | 60              | I/O Queue       |
+| 1               | 141182          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 780000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 125490          | 0               | Ready Queue     |
+| 4               | 98701           | 0               | Ready Queue     |
+| 6               | 87567           | 60              | I/O Queue       |
+| 7               | 71910           | 60              | I/O Queue       |
+| 8               | 58226           | 60              | I/O Queue       |
+| 9               | 85782           | 60              | I/O Queue       |
+| 10              | 79042           | 60              | I/O Queue       |
+| 1               | 137642          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 840000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 51830           | 0               | Ready Queue     |
+| 10              | 72318           | 60              | I/O Queue       |
+| 1               | 134617          | 60              | I/O Queue       |
+| 2               | 114363          | 60              | I/O Queue       |
+| 3               | 121496          | 60              | I/O Queue       |
+| 4               | 94461           | 60              | I/O Queue       |
+| 5               | 103889          | 60              | I/O Queue       |
+| 6               | 83279           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 900000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 73471           | 0               | Ready Queue     |
+| 10              | 62902           | 0               | Ready Queue     |
+| 1               | 131220          | 0               | Ready Queue     |
+| 2               | 111136          | 0               | Ready Queue     |
+| 3               | 117882          | 0               | Ready Queue     |
+| 5               | 99168           | 60              | I/O Queue       |
+| 6               | 76870           | 60              | I/O Queue       |
+| 7               | 59488           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 960000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 38377           | 60              | I/O Queue       |
+| 9               | 66471           | 60              | I/O Queue       |
+| 10              | 56103           | 60              | I/O Queue       |
+| 1               | 128377          | 60              | I/O Queue       |
+| 2               | 107790          | 60              | I/O Queue       |
+| 3               | 113005          | 60              | I/O Queue       |
+| 4               | 85468           | 60              | I/O Queue       |
+| 5               | 93789           | 60              | I/O Queue       |
+| 6               | 71854           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1020000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 80994           | 60              | I/O Queue       |
+| 5               | 88658           | 60              | I/O Queue       |
+| 6               | 65817           | 60              | I/O Queue       |
+| 7               | 47749           | 60              | I/O Queue       |
+| 8               | 32486           | 60              | I/O Queue       |
+| 9               | 59807           | 60              | I/O Queue       |
+| 10              | 48049           | 60              | I/O Queue       |
+| 1               | 125450          | 60              | I/O Queue       |
+| 2               | 103639          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1080000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 52349           | 0               | Ready Queue     |
+| 1               | 122405          | 60              | I/O Queue       |
+| 2               | 100017          | 60              | I/O Queue       |
+| 3               | 105078          | 60              | I/O Queue       |
+| 4               | 76645           | 60              | I/O Queue       |
+| 5               | 84160           | 60              | I/O Queue       |
+| 6               | 59957           | 60              | I/O Queue       |
+| 7               | 41352           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1140000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 20055           | 0               | Ready Queue     |
+| 10              | 32321           | 60              | I/O Queue       |
+| 1               | 120151          | 60              | I/O Queue       |
+| 2               | 96044           | 60              | I/O Queue       |
+| 3               | 101682          | 60              | I/O Queue       |
+| 4               | 72267           | 60              | I/O Queue       |
+| 5               | 79031           | 60              | I/O Queue       |
+| 6               | 54663           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1200000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 38399           | 0               | Ready Queue     |
+| 10              | 23290           | 0               | Ready Queue     |
+| 1               | 117530          | 0               | Ready Queue     |
+| 3               | 97450           | 60              | I/O Queue       |
+| 4               | 67687           | 60              | I/O Queue       |
+| 5               | 74929           | 60              | I/O Queue       |
+| 6               | 48191           | 60              | I/O Queue       |
+| 7               | 29257           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1260000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 63016           | 0               | Ready Queue     |
+| 5               | 70429           | 0               | Ready Queue     |
+| 6               | 43297           | 0               | Ready Queue     |
+| 7               | 24014           | 0               | Ready Queue     |
+| 9               | 32078           | 60              | I/O Queue       |
+| 10              | 16391           | 60              | I/O Queue       |
+| 1               | 114734          | 60              | I/O Queue       |
+| 2               | 88529           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1320000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 6               | 37885           | 0               | Ready Queue     |
+| 7               | 17516           | 0               | Ready Queue     |
+| 9               | 25020           | 0               | Ready Queue     |
+| 10              | 8869            | 0               | Ready Queue     |
+| 1               | 111411          | 0               | Ready Queue     |
+| 3               | 89212           | 60              | I/O Queue       |
+| 4               | 59328           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1380000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 84706           | 0               | Ready Queue     |
+| 5               | 60481           | 60              | I/O Queue       |
+| 6               | 33027           | 60              | I/O Queue       |
+| 7               | 9943            | 60              | I/O Queue       |
+| 9               | 16716           | 60              | I/O Queue       |
+| 10              | 1371            | 60              | I/O Queue       |
+| 1               | 108136          | 60              | I/O Queue       |
+| 2               | 80997           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1440000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 54423           | 60              | I/O Queue       |
+| 6               | 25447           | 60              | I/O Queue       |
+| 7               | 2611            | 60              | I/O Queue       |
+| 9               | 7350            | 60              | I/O Queue       |
+| 1               | 104356          | 60              | I/O Queue       |
+| 2               | 77126           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1500000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 74946           | 60              | I/O Queue       |
+| 4               | 41816           | 60              | I/O Queue       |
+| 5               | 48652           | 60              | I/O Queue       |
+| 6               | 18073           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1560000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 33933           | 60              | I/O Queue       |
+| 5               | 41910           | 60              | I/O Queue       |
+| 6               | 9672            | 60              | I/O Queue       |
+| 1               | 94251           | 60              | I/O Queue       |
+| 2               | 66645           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1620000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 89613           | 0               | Ready Queue     |
+| 3               | 61087           | 60              | I/O Queue       |
+| 4               | 25512           | 60              | I/O Queue       |
+| 5               | 32911           | 60              | I/O Queue       |
+| 6               | 666             | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1680000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 82747           | 60              | I/O Queue       |
+| 2               | 53316           | 60              | I/O Queue       |
+| 3               | 52568           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1740000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 76626           | 0               | Ready Queue     |
+| 2               | 46536           | 0               | Ready Queue     |
+| 3               | 44512           | 0               | Ready Queue     |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1800000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 35724           | 0               | Ready Queue     |
+| 1               | 70697           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1860000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 62554           | 0               | Ready Queue     |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1920000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 14766           | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1980000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 2842            | 60              | I/O Queue       |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 2040000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 2               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 2100000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 2               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 2112209
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 9               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 2               | 0               | 0               | Completed Queue |
+| 1               | 0               | 0               | Completed Queue |
+
+
+
+
+CPU Utilization: 77.70935546624412 %
+Throughput: 211220.9
+Average Turnaround time: 1696751.9 ms
+Average Waiting time: 1328561.4 ms
+
+
+___________________________SJF_________________________________
+
+
+Initial Process state
+Processes States at time: 60000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 146406          | 0               | Ready Queue     |
+| 8               | 168430          | 0               | Ready Queue     |
+| 7               | 164404          | 0               | Ready Queue     |
+| 5               | 170390          | 0               | Ready Queue     |
+| 6               | 146720          | 60              | I/O Queue       |
+| 4               | 139029          | 60              | I/O Queue       |
+| 3               | 138666          | 60              | I/O Queue       |
+| 10              | 163157          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 120000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 134701          | 60              | I/O Queue       |
+| 6               | 142372          | 60              | I/O Queue       |
+| 5               | 165488          | 60              | I/O Queue       |
+| 1               | 141886          | 60              | I/O Queue       |
+| 3               | 134655          | 60              | I/O Queue       |
+| 7               | 160275          | 60              | I/O Queue       |
+| 10              | 155844          | 60              | I/O Queue       |
+| 2               | 142307          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 180000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 153235          | 0               | Ready Queue     |
+| 7               | 153545          | 0               | Ready Queue     |
+| 5               | 160096          | 0               | Ready Queue     |
+| 9               | 159054          | 60              | I/O Queue       |
+| 3               | 132570          | 60              | I/O Queue       |
+| 6               | 138004          | 60              | I/O Queue       |
+| 4               | 131283          | 60              | I/O Queue       |
+| 10              | 150107          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 240000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 127909          | 0               | Ready Queue     |
+| 5               | 153382          | 0               | Ready Queue     |
+| 8               | 147118          | 0               | Ready Queue     |
+| 2               | 133550          | 60              | I/O Queue       |
+| 3               | 130401          | 60              | I/O Queue       |
+| 7               | 147668          | 60              | I/O Queue       |
+| 6               | 133570          | 60              | I/O Queue       |
+| 9               | 151492          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 300000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 6               | 129517          | 0               | Ready Queue     |
+| 7               | 141517          | 0               | Ready Queue     |
+| 10              | 140936          | 0               | Ready Queue     |
+| 8               | 139507          | 60              | I/O Queue       |
+| 3               | 126509          | 60              | I/O Queue       |
+| 4               | 125678          | 60              | I/O Queue       |
+| 9               | 143446          | 60              | I/O Queue       |
+| 1               | 130126          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 360000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 123354          | 60              | I/O Queue       |
+| 6               | 124722          | 60              | I/O Queue       |
+| 4               | 122189          | 60              | I/O Queue       |
+| 7               | 134141          | 60              | I/O Queue       |
+| 9               | 134653          | 60              | I/O Queue       |
+| 1               | 126094          | 60              | I/O Queue       |
+| 10              | 133669          | 60              | I/O Queue       |
+| 5               | 142671          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 420000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 7               | 127707          | 60              | I/O Queue       |
+| 9               | 129188          | 60              | I/O Queue       |
+| 6               | 121643          | 60              | I/O Queue       |
+| 10              | 127711          | 60              | I/O Queue       |
+| 4               | 118870          | 60              | I/O Queue       |
+| 2               | 118667          | 60              | I/O Queue       |
+| 5               | 136458          | 60              | I/O Queue       |
+| 1               | 121164          | 60              | I/O Queue       |
+| 3               | 121588          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 480000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 130682          | 60              | I/O Queue       |
+| 1               | 117887          | 60              | I/O Queue       |
+| 8               | 121171          | 60              | I/O Queue       |
+| 4               | 115037          | 60              | I/O Queue       |
+| 2               | 116898          | 60              | I/O Queue       |
+| 7               | 119946          | 60              | I/O Queue       |
+| 10              | 121691          | 60              | I/O Queue       |
+| 3               | 117804          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 540000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 117597          | 60              | I/O Queue       |
+| 3               | 113061          | 60              | I/O Queue       |
+| 6               | 113570          | 60              | I/O Queue       |
+| 4               | 110132          | 60              | I/O Queue       |
+| 7               | 113705          | 60              | I/O Queue       |
+| 1               | 114812          | 60              | I/O Queue       |
+| 10              | 115669          | 60              | I/O Queue       |
+| 5               | 124368          | 60              | I/O Queue       |
+| 2               | 111567          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 600000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 111902          | 60              | I/O Queue       |
+| 7               | 111032          | 60              | I/O Queue       |
+| 5               | 119149          | 60              | I/O Queue       |
+| 9               | 111493          | 60              | I/O Queue       |
+| 10              | 110553          | 60              | I/O Queue       |
+| 4               | 105241          | 60              | I/O Queue       |
+| 3               | 107080          | 60              | I/O Queue       |
+| 1               | 109449          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 660000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 104529          | 60              | I/O Queue       |
+| 6               | 105835          | 60              | I/O Queue       |
+| 3               | 102807          | 60              | I/O Queue       |
+| 4               | 99319           | 60              | I/O Queue       |
+| 7               | 105730          | 60              | I/O Queue       |
+| 8               | 105865          | 60              | I/O Queue       |
+| 2               | 104619          | 60              | I/O Queue       |
+| 10              | 106720          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 720000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 100079          | 60              | I/O Queue       |
+| 10              | 101143          | 60              | I/O Queue       |
+| 8               | 100915          | 60              | I/O Queue       |
+| 9               | 101287          | 60              | I/O Queue       |
+| 7               | 100568          | 60              | I/O Queue       |
+| 4               | 93990           | 60              | I/O Queue       |
+| 3               | 99292           | 60              | I/O Queue       |
+| 5               | 110494          | 60              | I/O Queue       |
+| 1               | 100472          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 780000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 96772           | 0               | Ready Queue     |
+| 8               | 97038           | 0               | Ready Queue     |
+| 5               | 103655          | 0               | Ready Queue     |
+| 9               | 97728           | 0               | Ready Queue     |
+| 4               | 90003           | 60              | I/O Queue       |
+| 6               | 95901           | 60              | I/O Queue       |
+| 7               | 96263           | 60              | I/O Queue       |
+| 10              | 96569           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 840000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 93669           | 0               | Ready Queue     |
+| 5               | 97893           | 0               | Ready Queue     |
+| 9               | 92930           | 60              | I/O Queue       |
+| 4               | 83423           | 60              | I/O Queue       |
+| 8               | 91074           | 60              | I/O Queue       |
+| 3               | 89774           | 60              | I/O Queue       |
+| 7               | 90264           | 60              | I/O Queue       |
+| 6               | 89843           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 900000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 80590           | 0               | Ready Queue     |
+| 2               | 86235           | 0               | Ready Queue     |
+| 5               | 91176           | 0               | Ready Queue     |
+| 1               | 85442           | 60              | I/O Queue       |
+| 10              | 89002           | 60              | I/O Queue       |
+| 6               | 87073           | 60              | I/O Queue       |
+| 8               | 86880           | 60              | I/O Queue       |
+| 3               | 84306           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 960000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 81505           | 0               | Ready Queue     |
+| 5               | 84589           | 60              | I/O Queue       |
+| 6               | 82273           | 60              | I/O Queue       |
+| 4               | 75797           | 60              | I/O Queue       |
+| 7               | 81192           | 60              | I/O Queue       |
+| 1               | 82337           | 60              | I/O Queue       |
+| 9               | 80179           | 60              | I/O Queue       |
+| 10              | 88547           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1020000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 83458           | 60              | I/O Queue       |
+| 2               | 74560           | 60              | I/O Queue       |
+| 6               | 76089           | 60              | I/O Queue       |
+| 7               | 76553           | 60              | I/O Queue       |
+| 4               | 74275           | 60              | I/O Queue       |
+| 9               | 77776           | 60              | I/O Queue       |
+| 8               | 78531           | 60              | I/O Queue       |
+| 1               | 76351           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1080000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 71433           | 0               | Ready Queue     |
+| 9               | 71119           | 60              | I/O Queue       |
+| 5               | 71880           | 60              | I/O Queue       |
+| 7               | 71486           | 60              | I/O Queue       |
+| 4               | 68922           | 60              | I/O Queue       |
+| 10              | 75911           | 60              | I/O Queue       |
+| 3               | 71362           | 60              | I/O Queue       |
+| 2               | 71555           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1140000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 69032           | 60              | I/O Queue       |
+| 2               | 66280           | 60              | I/O Queue       |
+| 7               | 66972           | 60              | I/O Queue       |
+| 8               | 67082           | 60              | I/O Queue       |
+| 5               | 70848           | 60              | I/O Queue       |
+| 1               | 66026           | 60              | I/O Queue       |
+| 9               | 68113           | 60              | I/O Queue       |
+| 6               | 69447           | 60              | I/O Queue       |
+| 4               | 63126           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1200000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 61358           | 60              | I/O Queue       |
+| 8               | 64576           | 60              | I/O Queue       |
+| 4               | 62059           | 60              | I/O Queue       |
+| 7               | 63143           | 60              | I/O Queue       |
+| 6               | 62032           | 60              | I/O Queue       |
+| 3               | 58311           | 60              | I/O Queue       |
+| 9               | 61951           | 60              | I/O Queue       |
+| 2               | 63482           | 60              | I/O Queue       |
+| 10              | 64468           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1260000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 53718           | 60              | I/O Queue       |
+| 9               | 59627           | 60              | I/O Queue       |
+| 10              | 59461           | 60              | I/O Queue       |
+| 6               | 58017           | 60              | I/O Queue       |
+| 8               | 58848           | 60              | I/O Queue       |
+| 1               | 56969           | 60              | I/O Queue       |
+| 2               | 58236           | 60              | I/O Queue       |
+| 7               | 58194           | 60              | I/O Queue       |
+| 4               | 58112           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1320000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 48203           | 60              | I/O Queue       |
+| 5               | 51830           | 60              | I/O Queue       |
+| 6               | 54223           | 60              | I/O Queue       |
+| 8               | 54525           | 60              | I/O Queue       |
+| 10              | 53147           | 60              | I/O Queue       |
+| 7               | 53946           | 60              | I/O Queue       |
+| 9               | 53456           | 60              | I/O Queue       |
+| 1               | 53731           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1380000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 44340           | 60              | I/O Queue       |
+| 6               | 49390           | 60              | I/O Queue       |
+| 10              | 49068           | 60              | I/O Queue       |
+| 5               | 46554           | 60              | I/O Queue       |
+| 9               | 49236           | 60              | I/O Queue       |
+| 8               | 49051           | 60              | I/O Queue       |
+| 1               | 49391           | 60              | I/O Queue       |
+| 7               | 49358           | 60              | I/O Queue       |
+| 2               | 48061           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1440000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 43918           | 0               | Ready Queue     |
+| 2               | 43408           | 60              | I/O Queue       |
+| 4               | 45787           | 60              | I/O Queue       |
+| 7               | 45047           | 60              | I/O Queue       |
+| 5               | 41274           | 60              | I/O Queue       |
+| 6               | 44169           | 60              | I/O Queue       |
+| 9               | 42749           | 60              | I/O Queue       |
+| 3               | 40121           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1500000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 39331           | 0               | Ready Queue     |
+| 4               | 40663           | 60              | I/O Queue       |
+| 3               | 36929           | 60              | I/O Queue       |
+| 6               | 39497           | 60              | I/O Queue       |
+| 9               | 35441           | 60              | I/O Queue       |
+| 5               | 36208           | 60              | I/O Queue       |
+| 7               | 39371           | 60              | I/O Queue       |
+| 8               | 40253           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1560000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 34028           | 0               | Ready Queue     |
+| 6               | 34011           | 60              | I/O Queue       |
+| 10              | 32511           | 60              | I/O Queue       |
+| 8               | 34575           | 60              | I/O Queue       |
+| 9               | 30004           | 60              | I/O Queue       |
+| 3               | 34371           | 60              | I/O Queue       |
+| 7               | 35659           | 60              | I/O Queue       |
+| 4               | 35002           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1620000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 7               | 29576           | 0               | Ready Queue     |
+| 1               | 31943           | 0               | Ready Queue     |
+| 4               | 30957           | 0               | Ready Queue     |
+| 10              | 26648           | 60              | I/O Queue       |
+| 9               | 22520           | 60              | I/O Queue       |
+| 5               | 25723           | 60              | I/O Queue       |
+| 3               | 28807           | 60              | I/O Queue       |
+| 6               | 30543           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1680000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 22528           | 0               | Ready Queue     |
+| 1               | 26682           | 0               | Ready Queue     |
+| 2               | 26000           | 0               | Ready Queue     |
+| 6               | 24369           | 60              | I/O Queue       |
+| 7               | 23345           | 60              | I/O Queue       |
+| 10              | 24454           | 60              | I/O Queue       |
+| 9               | 18324           | 60              | I/O Queue       |
+| 8               | 25840           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1740000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 19872           | 0               | Ready Queue     |
+| 4               | 21249           | 0               | Ready Queue     |
+| 5               | 20485           | 0               | Ready Queue     |
+| 1               | 22480           | 0               | Ready Queue     |
+| 2               | 21813           | 0               | Ready Queue     |
+| 3               | 17199           | 60              | I/O Queue       |
+| 9               | 13599           | 60              | I/O Queue       |
+| 6               | 17956           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1800000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 15227           | 0               | Ready Queue     |
+| 1               | 17133           | 0               | Ready Queue     |
+| 5               | 15736           | 0               | Ready Queue     |
+| 10              | 16736           | 60              | I/O Queue       |
+| 9               | 11226           | 60              | I/O Queue       |
+| 4               | 16397           | 60              | I/O Queue       |
+| 7               | 15634           | 60              | I/O Queue       |
+| 6               | 16046           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1860000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 5638            | 0               | Ready Queue     |
+| 5               | 10289           | 0               | Ready Queue     |
+| 4               | 10498           | 0               | Ready Queue     |
+| 6               | 11586           | 0               | Ready Queue     |
+| 2               | 11958           | 0               | Ready Queue     |
+| 1               | 12549           | 0               | Ready Queue     |
+| 7               | 10638           | 0               | Ready Queue     |
+| 10              | 12309           | 0               | Ready Queue     |
+
+
+
+Processes States at time: 1920000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 8136            | 0               | Ready Queue     |
+| 1               | 8910            | 0               | Ready Queue     |
+| 6               | 7823            | 60              | I/O Queue       |
+| 9               | 934             | 60              | I/O Queue       |
+| 10              | 6064            | 60              | I/O Queue       |
+| 4               | 4592            | 60              | I/O Queue       |
+| 8               | 1684            | 60              | I/O Queue       |
+| 3               | 2219            | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1980000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 3386            | 0               | Ready Queue     |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1993215
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 2               | 0               | 0               | Completed Queue |
+| 1               | 0               | 0               | Completed Queue |
+
+
+
+
+CPU Utilization: 80.60154072691607 %
+Throughput: 199321.5
+Average Turnaround time: 1962344.4 ms
+Average Waiting time: 1604242.4 ms
+
+
+___________________________RR__________________________________
+
+
+Initial Process state
+Processes States at time: 60000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 127080          | 0               | Ready Queue     |
+| 9               | 112809          | 0               | Ready Queue     |
+| 1               | 120176          | 60              | I/O Queue       |
+| 2               | 176157          | 60              | I/O Queue       |
+| 3               | 144734          | 60              | I/O Queue       |
+| 4               | 165106          | 60              | I/O Queue       |
+| 5               | 155096          | 60              | I/O Queue       |
+| 6               | 145281          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 120000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 140317          | 60              | I/O Queue       |
+| 4               | 160772          | 60              | I/O Queue       |
+| 5               | 151342          | 60              | I/O Queue       |
+| 6               | 139119          | 60              | I/O Queue       |
+| 7               | 130543          | 60              | I/O Queue       |
+| 8               | 119759          | 60              | I/O Queue       |
+| 9               | 105229          | 60              | I/O Queue       |
+| 10              | 142411          | 60              | I/O Queue       |
+| 1               | 117344          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 180000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 147123          | 60              | I/O Queue       |
+| 6               | 133849          | 60              | I/O Queue       |
+| 7               | 125538          | 60              | I/O Queue       |
+| 8               | 113626          | 60              | I/O Queue       |
+| 9               | 98200           | 60              | I/O Queue       |
+| 10              | 135099          | 60              | I/O Queue       |
+| 1               | 114400          | 60              | I/O Queue       |
+| 2               | 169543          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 240000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 152311          | 60              | I/O Queue       |
+| 5               | 141732          | 60              | I/O Queue       |
+| 6               | 128447          | 60              | I/O Queue       |
+| 7               | 119535          | 60              | I/O Queue       |
+| 8               | 107371          | 60              | I/O Queue       |
+| 9               | 91549           | 60              | I/O Queue       |
+| 10              | 127577          | 60              | I/O Queue       |
+| 1               | 111793          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 300000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 119924          | 0               | Ready Queue     |
+| 2               | 162609          | 60              | I/O Queue       |
+| 3               | 127589          | 60              | I/O Queue       |
+| 4               | 147721          | 60              | I/O Queue       |
+| 5               | 137335          | 60              | I/O Queue       |
+| 6               | 123196          | 60              | I/O Queue       |
+| 7               | 113480          | 60              | I/O Queue       |
+| 8               | 101005          | 60              | I/O Queue       |
+
+
+
+Processes States at time: 360000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 106317          | 0               | Ready Queue     |
+| 2               | 158927          | 0               | Ready Queue     |
+| 3               | 123770          | 0               | Ready Queue     |
+| 5               | 132699          | 60              | I/O Queue       |
+| 6               | 118448          | 60              | I/O Queue       |
+| 7               | 107768          | 60              | I/O Queue       |
+| 8               | 94044           | 60              | I/O Queue       |
+| 9               | 76914           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 420000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 103591          | 0               | Ready Queue     |
+| 2               | 154847          | 0               | Ready Queue     |
+| 4               | 138847          | 60              | I/O Queue       |
+| 5               | 127691          | 60              | I/O Queue       |
+| 6               | 113313          | 60              | I/O Queue       |
+| 7               | 101735          | 60              | I/O Queue       |
+| 8               | 87095           | 60              | I/O Queue       |
+| 9               | 70203           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 480000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 64629           | 0               | Ready Queue     |
+| 10              | 99103           | 0               | Ready Queue     |
+| 1               | 100382          | 0               | Ready Queue     |
+| 3               | 116203          | 60              | I/O Queue       |
+| 4               | 134687          | 60              | I/O Queue       |
+| 5               | 122437          | 60              | I/O Queue       |
+| 6               | 108003          | 60              | I/O Queue       |
+| 7               | 96202           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 540000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 91085           | 0               | Ready Queue     |
+| 2               | 147349          | 60              | I/O Queue       |
+| 3               | 112185          | 60              | I/O Queue       |
+| 4               | 131145          | 60              | I/O Queue       |
+| 5               | 118037          | 60              | I/O Queue       |
+| 6               | 102517          | 60              | I/O Queue       |
+| 7               | 89810           | 60              | I/O Queue       |
+| 8               | 75551           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 600000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 144447          | 60              | I/O Queue       |
+| 3               | 108049          | 60              | I/O Queue       |
+| 4               | 127583          | 60              | I/O Queue       |
+| 5               | 112565          | 60              | I/O Queue       |
+| 6               | 96798           | 60              | I/O Queue       |
+| 7               | 83421           | 60              | I/O Queue       |
+| 8               | 68370           | 60              | I/O Queue       |
+| 9               | 50304           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 660000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 75542           | 0               | Ready Queue     |
+| 1               | 91930           | 0               | Ready Queue     |
+| 2               | 141134          | 0               | Ready Queue     |
+| 3               | 103768          | 0               | Ready Queue     |
+| 4               | 122997          | 0               | Ready Queue     |
+| 6               | 90596           | 60              | I/O Queue       |
+| 7               | 76293           | 60              | I/O Queue       |
+| 8               | 62784           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 720000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 99555           | 0               | Ready Queue     |
+| 5               | 102588          | 60              | I/O Queue       |
+| 6               | 85080           | 60              | I/O Queue       |
+| 7               | 70780           | 60              | I/O Queue       |
+| 8               | 57434           | 60              | I/O Queue       |
+| 9               | 37084           | 60              | I/O Queue       |
+| 10              | 66152           | 60              | I/O Queue       |
+| 1               | 89149           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 780000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 10              | 59037           | 0               | Ready Queue     |
+| 1               | 86422           | 0               | Ready Queue     |
+| 2               | 134748          | 0               | Ready Queue     |
+| 3               | 95976           | 0               | Ready Queue     |
+| 5               | 97854           | 60              | I/O Queue       |
+| 6               | 80383           | 60              | I/O Queue       |
+| 7               | 65059           | 60              | I/O Queue       |
+| 8               | 51030           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 840000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 83182           | 60              | I/O Queue       |
+| 2               | 131731          | 60              | I/O Queue       |
+| 3               | 92442           | 60              | I/O Queue       |
+| 4               | 110296          | 60              | I/O Queue       |
+| 5               | 93030           | 60              | I/O Queue       |
+| 6               | 74896           | 60              | I/O Queue       |
+| 7               | 59490           | 60              | I/O Queue       |
+| 8               | 45917           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 900000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 8               | 39761           | 0               | Ready Queue     |
+| 9               | 15743           | 0               | Ready Queue     |
+| 10              | 45385           | 0               | Ready Queue     |
+| 1               | 80720           | 0               | Ready Queue     |
+| 2               | 128552          | 0               | Ready Queue     |
+| 4               | 105565          | 60              | I/O Queue       |
+| 5               | 88993           | 60              | I/O Queue       |
+| 6               | 68933           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 960000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 8175            | 0               | Ready Queue     |
+| 10              | 38341           | 0               | Ready Queue     |
+| 1               | 77895           | 0               | Ready Queue     |
+| 2               | 125577          | 0               | Ready Queue     |
+| 3               | 84837           | 0               | Ready Queue     |
+| 4               | 102249          | 0               | Ready Queue     |
+| 5               | 83829           | 0               | Ready Queue     |
+| 6               | 63945           | 0               | Ready Queue     |
+
+
+
+Processes States at time: 1020000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 2138            | 0               | Ready Queue     |
+| 10              | 30430           | 0               | Ready Queue     |
+| 1               | 74854           | 0               | Ready Queue     |
+| 2               | 122343          | 0               | Ready Queue     |
+| 3               | 81104           | 0               | Ready Queue     |
+| 5               | 78557           | 60              | I/O Queue       |
+| 6               | 58670           | 60              | I/O Queue       |
+| 7               | 40772           | 60              | I/O Queue       |
+
+
+
+Processes States at time: 1080000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 71796           | 0               | Ready Queue     |
+| 2               | 119025          | 0               | Ready Queue     |
+| 3               | 76620           | 0               | Ready Queue     |
+| 4               | 93054           | 0               | Ready Queue     |
+| 6               | 52040           | 60              | I/O Queue       |
+| 7               | 34681           | 60              | I/O Queue       |
+| 8               | 22226           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1140000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 3               | 71870           | 0               | Ready Queue     |
+| 4               | 87404           | 0               | Ready Queue     |
+| 5               | 67554           | 0               | Ready Queue     |
+| 7               | 27926           | 60              | I/O Queue       |
+| 8               | 15820           | 60              | I/O Queue       |
+| 10              | 15087           | 60              | I/O Queue       |
+| 1               | 68686           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1200000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 62295           | 0               | Ready Queue     |
+| 6               | 41051           | 0               | Ready Queue     |
+| 7               | 21617           | 0               | Ready Queue     |
+| 10              | 7177            | 60              | I/O Queue       |
+| 1               | 65600           | 60              | I/O Queue       |
+| 2               | 112526          | 60              | I/O Queue       |
+| 3               | 66717           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1260000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 108953          | 0               | Ready Queue     |
+| 4               | 76796           | 60              | I/O Queue       |
+| 5               | 56803           | 60              | I/O Queue       |
+| 6               | 34483           | 60              | I/O Queue       |
+| 7               | 14930           | 60              | I/O Queue       |
+| 8               | 200             | 60              | I/O Queue       |
+| 10              | 449             | 60              | I/O Queue       |
+| 1               | 62352           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1320000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 6               | 26140           | 60              | I/O Queue       |
+| 7               | 7050            | 60              | I/O Queue       |
+| 1               | 58433           | 60              | I/O Queue       |
+| 2               | 103979          | 60              | I/O Queue       |
+| 3               | 56525           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1380000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 63546           | 60              | I/O Queue       |
+| 5               | 42940           | 60              | I/O Queue       |
+| 6               | 18594           | 60              | I/O Queue       |
+| 1               | 53823           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1440000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 34398           | 60              | I/O Queue       |
+| 6               | 10830           | 60              | I/O Queue       |
+| 1               | 48256           | 60              | I/O Queue       |
+| 2               | 93576           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1500000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 5               | 27042           | 60              | I/O Queue       |
+| 6               | 1265            | 60              | I/O Queue       |
+| 1               | 42684           | 60              | I/O Queue       |
+| 2               | 87583           | 60              | I/O Queue       |
+| 3               | 37176           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1560000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 4               | 39552           | 60              | I/O Queue       |
+| 5               | 18172           | 60              | I/O Queue       |
+| 1               | 37451           | 60              | I/O Queue       |
+| 2               | 80559           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1620000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 31517           | 60              | I/O Queue       |
+| 2               | 73616           | 60              | I/O Queue       |
+| 3               | 22153           | 60              | I/O Queue       |
+| 4               | 31359           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1680000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 2               | 65887           | 60              | I/O Queue       |
+| 3               | 13009           | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1740000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 1               | 18816           | 0               | Ready Queue     |
+| 3               | 3078            | 60              | I/O Queue       |
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1800000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1860000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 1               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1920000
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 1               | 0               | 0               | Completed Queue |
+
+
+
+Processes States at time: 1932741
+__________________________________________________________________________
+| Process ID      | Burst Time      | I/O Time Remaining | Queue           |
+__________________________________________________________________________ 
+| 9               | 0               | 0               | Completed Queue |
+| 8               | 0               | 0               | Completed Queue |
+| 10              | 0               | 0               | Completed Queue |
+| 7               | 0               | 0               | Completed Queue |
+| 6               | 0               | 0               | Completed Queue |
+| 5               | 0               | 0               | Completed Queue |
+| 3               | 0               | 0               | Completed Queue |
+| 4               | 0               | 0               | Completed Queue |
+| 1               | 0               | 0               | Completed Queue |
+| 2               | 0               | 0               | Completed Queue |
+
+
+
+
+CPU Utilization: 76.71369314357175 %
+Throughput: 193274.1
+Average Turnaround time: 1542949.3 ms
+Average Waiting time: 1207349.6 ms
+
+
